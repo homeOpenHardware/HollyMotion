@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+h4, .h4{
+    font-weight: $heading-4-font-weight;
+}
+
+// link
+a{
+    transition: 0.2s;
+}
+
+p:last-of-type{
+    margin-bottom: 0;
+}
+
+.h__1{
+    margin-bottom: 0.8rem;
+    font-size:25px;
+    @media(min-width: 768px){
+        font-size:48px;
+    }
+}
+.h__4{
+    font-weight: 400;
+}
+
+.listing{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+     li{
+         & + li {
+             margin-top: 15px;
+         }
+         &:before{
+             content: '\f105';
+             font-family: FontAwesome;
+             color: $primary;
+             margin-right: 5px;
+         }
+         span {
+            float: right;
+            color: $cyan;
+        }
+     }
+}
+
+.font_size30{
+    font-size: 30px;
+}
+
+@mixin social-button-colors($color_1, $color_2) {
+    color: $color_1;
+    background-color: $color_2;
+    &:hover{
+        color:$color_2;
+        background-color: $color_1;
+    }
+}
+
+.btn-social-color{
+    &[class*="facebook"]{
+       @include social-button-colors($white, $facebook);
+    }
+}
+.btn-social-color{
+    &[class*="twitter"]{
+       @include social-button-colors($white, $twitter);
+    }
+}
+.btn-social-color{
+    &[class*="linkedin"]{
+       @include social-button-colors($white, $linkedin);
+    }
+}
+.btn-social-color{
+    &[class*="pinterest"]{
+       @include social-button-colors($white, $pinterest);
+    }
+}
+.btn-social-color{
+    &[class*="pinterest1"]{
+       @include social-button-colors($pinterest, $white);
+    }
+}
+.btn-social-color{
+    &[class*="youtube"]{
+       @include social-button-colors($white, $youtube);
+    }
+}
+
+
+.inline-list{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}

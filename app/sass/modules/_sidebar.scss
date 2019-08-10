@@ -1,0 +1,90 @@
+.sidebar-block {
+    background-color: $white;
+   border: 1px solid $gray-500;
+   padding: 1.5625rem;
+    & + .sidebar-block{
+        margin-top: 30px;
+    }
+
+    h4{
+    padding-bottom: 20px;
+    border-bottom: 1px solid $gray-500;
+    margin-bottom: 30px;
+    }
+
+    h4.About_Author{
+        margin-bottom: 20px;
+    }
+
+    .card{
+        border: none;
+        & + .card{
+            margin-top: 10px;
+            border-top: 1px solid $gray-500;
+            padding-top: 30px;
+        }
+        &-body,
+        &-footer{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        &-footer{
+            border-top:0;
+        }
+        &-price{
+            font-weight: bold;
+            color: $dark;
+        }
+    }
+} 
+
+.sidebar-card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-body1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+// price_bar
+.price_bar{
+    font-size: 22px;
+    margin-top: -5px;
+}
+
+.card-img-top4{
+    width: 100%;
+    @media(min-width: 992px){
+       width: 72px;
+       height: 61px;
+    }
+}
+.card-font-size2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-cat1{
+    font-size: 13px;
+    border:1px solid #ccc;
+    letter-spacing: 0.5px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: $primary;
+    width: 10px;
+    height: 10px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+.max-size_20{
+    font-size: 20px;
+}
+.max-size_14{
+    font-size:14px;
+}

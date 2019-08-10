@@ -1,0 +1,35 @@
+.min-height-420{
+    min-height: 200px;
+    @media(min-width: 768px){
+        min-height: 420px;
+    }
+}
+
+.max-height-420{
+    height: 420px;
+    @media(max-width: 768px){
+        height: 200px;
+    }
+}
+
+.btn-group.btn-group.btn-group-offset-lg{
+    $offset: 1rem;
+    flex-wrap: wrap;
+    margin-left: -$offset;
+    margin-bottom: -$offset;
+    > * {
+        margin-left:$offset;
+        margin-bottom:$offset;
+    }
+}
+
+.btn-group.btn-group.btn-group-offset-xs{
+    $offset: 3px;
+    flex-wrap: wrap;
+    margin-left: $offset;
+    margin-bottom: $offset;
+    > * {
+        margin-left:$offset;
+        margin-bottom:$offset;
+    }
+}

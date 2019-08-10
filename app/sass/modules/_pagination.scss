@@ -1,0 +1,11 @@
+.Pa_ge{
+    margin-right: 8px;
+    box-shadow: 6px 7px 15px -9px rgba(0,0,0,0.79);
+    color: $dark;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    &:hover{
+        background-color:$secondary;
+        color: $white;
+    }
+}

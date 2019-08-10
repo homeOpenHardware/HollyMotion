@@ -1,0 +1,138 @@
+// Color system
+$primary: #8bc34a;
+$secondary: #e74c3c;
+$gray-100: #f4f6f5;
+$gray-200: #b0bec5;
+$gray-300: #b7c3c8;
+$gray-400: #d4d4d4;
+$gray-500: #dde3e8;
+$gray-600: #90a4ae;
+$gray-700: #e0e0e0;
+$gray-800: #b5b5b5;
+$gray-900: #707070;
+$green: #8bc34a;
+$red:#e74c3c;
+$cyan: #546e7a;
+$dark: #263238;
+$orange: #ffa726;
+
+$facebook: #6370b6;
+$twitter: #64b5f6; 
+$linkedin: #4f71ce;
+$pinterest: #d32f2f;
+$youtube: #e52d27;
+
+$btn-color-blue: #42a5f5;
+$btn-color-dark-blue: #546e7a;
+
+// Fonts
+$font-family-sans-serif:'Roboto', sans-serif;
+
+// body
+
+$body-bg: $gray-100;
+
+$body-color: $gray-900;
+
+// borders--
+$border-color: $gray-500;
+
+
+
+$navbar-dark-color: $primary;
+
+$font-size-sm: 0.75rem;
+
+$h1-font-size:  48px;                                                                      
+$h2-font-size:  36px;                                                
+$h3-font-size:  24px;               
+$h4-font-size:  20px;               
+$h5-font-size:  18px; 
+
+$small-font-size:             87.5%; 
+
+$heading-4-font-weight: bold;
+             
+
+// Buttons
+$btn-padding-y-sm:15px;           
+$btn-padding-x-sm:30px;
+$font-size-sm:0.9375rem; 
+$border-radius: 0;
+$border-radius-lg: 0;
+
+$btn-padding-y-lg:13px;           
+$btn-padding-x-lg:30px;
+$font-size-lg:1rem; 
+$border-radius: 0;
+$border-radius-lg: 0;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    7: 5px,
+    8: 8px,
+    6: 3px,
+    10: 10px,
+    13: 13px,
+    15: 15px,
+    18: 18px,
+    20: 20px,
+    25: 25px,
+    30: 30px,
+    33: 33px,
+    36: 36px,
+    100: 100px,
+    110: 110px,
+    120: 120px,
+    125: 125px,
+    130: 130px,
+    160: 160px,
+    190: 190px,
+    200: 200px,
+    395: 395px,
+    270: 270px,
+    220: 220px,
+    40: 40px,
+    45: 45px,
+    50: 50px,
+    55: 55px,
+    60: 60px,
+    70: 70px,
+    75: 75px,
+    80: 80px,
+    90: 90px,
+    112: 112px,
+  ),
+  $spacers
+);
+
+// Cards
+
+$card-spacer-y: 0.35rem;
+$card-spacer-x: 1.2rem; 
+$card-spacer-x-sm: 0.6rem;
+
+// links
+
+$link-hover-color: $cyan;
+$link-hover-decoration: none;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+) !default;

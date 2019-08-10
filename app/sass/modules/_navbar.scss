@@ -1,0 +1,19 @@
+.top-panel{
+  font-size: 30px;
+  color: white;
+  &:hover{
+    color:$secondary;
+  }
+}
+
+.top-icon{
+  font-weight:lighter;
+  font-size: 40px;
+}
+
+.section_1{
+  font-size: 35px;
+  @media(min-width: 768px){
+    font-size: 55px;
+  }
+}

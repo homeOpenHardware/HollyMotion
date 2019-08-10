@@ -1,0 +1,20 @@
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    background-color: $gray-800;
+    box-shadow: inset  0px 0.5px 3px 1px  $gray-900;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.8;
+    &:hover{
+        background-color:$primary;
+    }
+}
+
+.carousel-indicators {
+    bottom: -55px;
+    background-color: white;
+    @media(min-width: 992px){
+        bottom: -84px;
+      }
+}

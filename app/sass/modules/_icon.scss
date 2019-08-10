@@ -1,0 +1,152 @@
+// ----------square
+.width--hexagon{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    @media(min-width: 1200px){
+        margin-top: 0;
+        margin-bottom: 0;
+     }
+}
+
+.hexagon {
+    background: #ffb74d;
+
+}
+.hexagon:before {
+    content: "\f11a";
+    position: absolute;
+    font-family: FontAwesome;
+    color: white;
+    font-size: 20px;
+    display: block;
+    left: 10px;
+    top: 1px;
+}
+    .hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 7.9px;
+    width: 20px;
+    height: 10px;
+    border-top: 10px solid #ffb74d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hexagon1 {
+    background: #f4511e;
+}
+.hexagon1:before {
+    content: "\f18c";
+    position: absolute;
+    font-family: FontAwesome;
+    color: white;
+    font-size: 20px;
+    display: block;
+    left: 10px;
+    top: 1px;
+}
+    .hexagon1:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 7.9px;
+    width: 20px;
+    height: 10px;
+    border-top: 10px solid #f4511e;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hexagon2 {
+    background: #00bcd4;
+}
+.hexagon2:before {
+    content: "\f11a";
+    position: absolute;
+    font-family: FontAwesome;
+    color: white;
+    font-size: 20px;
+    display: block;
+    left: 10px;
+    top: 1px;
+}
+    .hexagon2:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 7.9px;
+    width: 20px;
+    height: 10px;
+    border-top: 10px solid #00bcd4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hexagon3 {
+    background: #66bb6a;
+}
+.hexagon3:before {
+    content: "\f180";
+    position: absolute;
+    font-family: FontAwesome;
+    color: white;
+    font-size: 20px;
+    display: block;
+    left: 10px;
+    top: 1px;
+}
+    .hexagon3:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 7.9px;
+    width: 20px;
+    height: 10px;
+    border-top: 10px solid #66bb6a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hexagon4 {
+    background: #cfd8dc;
+}
+.hexagon4:before {
+    content: "\f157";
+    position: absolute;
+    font-family: FontAwesome;
+    color: white;
+    font-size: 20px;
+    display: block;
+    left: 10px;
+    top: 1px;
+}
+    .hexagon4:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 7.9px;
+    width: 20px;
+    height: 10px;
+    border-top: 10px solid #cfd8dc;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icon-1{
+    visibility: hidden;
+    @media(min-width: 768px){
+       visibility: visible;
+      }
+}
+
+.icon-2{
+    visibility: visible;
+    @media(min-width: 768px){
+        visibility: hidden;
+      }
+}
