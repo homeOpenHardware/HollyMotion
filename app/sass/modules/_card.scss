@@ -20,6 +20,14 @@
         color: $secondary;
     }
 }
+.card-title1{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        color: $secondary;
+    }
+}
 
 .bg-black {
     background-color: black;
@@ -29,6 +37,20 @@
     position: relative;
     width: 100%;
 }
+.product-image2{
+    position: relative;
+    width: 300px;
+}
+.line {
+    border-bottom: 3px solid $secondary;
+    width: 210px;
+}
+.card-inner{
+    color: white;
+    font-size:20px;
+    font-weight: 100;
+}
+
 .card-img-top{
     height: 250px;
     @media(min-width: 768px){
