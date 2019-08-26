@@ -195,5 +195,58 @@
    }
 }
 
+.info-inner{
+  position: absolute;
+  top:83%;
+  font-size: 13px;
+  font-weight: 100;
+  right: 42%;
+  
+  
+  @media(min-width: 576px){
+    right: 48%;
+    font-size: 14px;
+  }
+  @media(min-width: 768px){
+    right: 48%;
+    font-size: 17px;
+  }
+}
+
+.card-rating-icon{
+  color: white;
+  &:hover{
+    color: $secondary;
+  }
+}
+
+.modal-content{
+  opacity:0.9;
+}
+
+
+
+.user1{
+  background-color: $cyan;
+  color:white;
+  &:hover{
+    color:$secondary; 
+  }
+}
+
+.icon-group{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
 
 

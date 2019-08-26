@@ -137,15 +137,6 @@
     border-bottom-right-radius: 20px;
 }
 
-.icon-0{
-    font-size: 35px;
-   
-    color: white;
-    &:hover{
-        color:$gray-400;
-    }
-}
-
 .icon-1{
     visibility: hidden;
     @media(min-width: 768px){

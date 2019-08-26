@@ -41,22 +41,23 @@
     position: relative;
     width: 300px;
 }
-.line {
-    border-bottom: 3px solid $secondary;
-    width: 210px;
+.line-0 {
+    border-bottom: 2px solid $secondary;
+    width: 220px;
 }
+
+.line-01 {
+    border-bottom: 2px solid $secondary;
+    width: 140px;
+}
+
 .card-inner{
     color: white;
     font-size:20px;
     font-weight: 100;
 }
 
-.card-img-top{
-    height: 250px;
-    @media(min-width: 768px){
-        height: 300px;
-      }
-}
+
 
 .card-title-1{
     position: absolute;
@@ -67,25 +68,29 @@
 	left: 40px;
     width: 100%;
     @media(min-width: 768px){
-        top	: 130px;
-        font-size: 50px;
+        top	: 90px;
+        font-size: 40px;
       }
 }
 .card-size{
-    top	: 150px;
+    top	: 140px;
     @media(min-width: 768px){
-        top	: 180px;
+        top	: 140px;
       }
 }
 
 .detail-link{
     position: absolute;
     color:white;
-    top	: 220px;
+    top	: 210px;
 	left: 40px;
     width: 100%;
     @media(min-width: 768px){
-        top	: 250px;
+        top	: 210px;
       }
+}
+
+.img-250{
+    height: 250px;
 }
 

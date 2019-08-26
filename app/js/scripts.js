@@ -37,3 +37,4 @@ $('#price-max').change(function(event) {
 // carousel
 $('.carousel').carousel();
 
+
