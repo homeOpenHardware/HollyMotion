@@ -29,6 +29,12 @@
     }
 }
 
+.card-title2{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -49,6 +55,12 @@
 .line-01 {
     border-bottom: 2px solid $secondary;
     width: 140px;
+}
+
+.line-3{
+    border-left: 1px solid $secondary;
+    height: 100%;
+        
 }
 
 .card-inner{
@@ -92,5 +104,11 @@
 
 .img-250{
     height: 250px;
+}
+
+.h2-like{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
