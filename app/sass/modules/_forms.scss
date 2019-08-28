@@ -128,6 +128,15 @@ position: absolute;
      color:$secondary;}
 }
 
+.btn-submit{
+  border:none;
+  background-color: black;
+  color:white;
+  &:hover{
+      color:$secondary;
+  }
+}
+
 
  
 

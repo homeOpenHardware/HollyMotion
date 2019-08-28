@@ -1,9 +1,161 @@
-.btn-submit{
-    border:none;
-    background-color: black;
-    color:white;
+.btn-primary{
+    color: $white;
+}
+
+.btn-cyan{
+    background-color: $cyan;
+    color: $white;
     &:hover{
-        color:$secondary;
+        color:white;
+    }
+}
+
+.button-icon{
+    margin-right: 5px;
+}
+
+.btn_1{
+    font-size: 14px;
+    background-color: white;
+    font-family: "Roboto", sans-serif; 
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 19px;
+    padding-right: 19px;
+    &:hover{
+        background-color: $secondary;
+        color: white;
+    }
+}
+
+.btn_2{
+    font-size: 16px;
+    background-color: white;
+    font-family: "Roboto", sans-serif; 
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 15px 30px;
+   
+    &:hover{
+        background-color: $secondary;
+        color: white;
+        box-shadow: 5px 7px 10px -5px rgba(0,0,0,0.46);
+    }
+}
+
+.btn_3{
+    font-size: 16px;
+    background-color: white;
+    font-family: "Roboto", sans-serif; 
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 10px 15px;
+    @media(min-width: 768px){
+        padding: 15px 40px;
+        font-size: 18px;
+      }
+   
+    &:hover{
+        background-color: $secondary;
+        color: white;
+        box-shadow: 5px 7px 10px -5px rgba(0,0,0,0.46);
+    }
+}
+.btn_4{
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+.bg-btn-color-blue{
+    background-color: $btn-color-blue;
+}
+.bg-btn-color-dark-blue{
+    background-color: $btn-color-dark-blue;
+}
+
+// price range
+
+$gray5: darken($white, 5%);
+$gray25: darken($white, 25%);
+
+.filters {
+	padding: 5rem 2rem;
+    background-color: $white;
+    border-radius: 50%;
+	.ui-slider-handle {
+		width: 3rem;
+		height: 3rem;
+		top: -1.2rem;
+		border: 0.6rem solid $primary;
+		border-radius: 50%;
+		//margin-left: -1.5rem;
+		transform: translateX(-0.9rem);
+		&:focus, &:active {
+			outline: none;
+			background: $white;
+		}
+	}
+}
+
+.controls {
+	#price-range {
+		border: none;
+		background: $gray25;
+	    .ui-slider-range {
+			background: $primary;
+		}
+	}
+}
+
+.textinputs {
+	@extend .clearfix;
+	padding: 1.5rem 0;
+	input {
+		width: 4rem;
+		display: block;
+		float: left;
+	}
+	input:last-child {
+		float: right;
+	}
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default{
+    border-radius: 50%;
+}
+
+.btn-social-lg{
+    width: 54px;
+    height: 50px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    .icon{
+        font-size: 1.125rem;
+        line-height: 50px;
+    }
+}
+.btn-social-md{
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    .icon{
+        font-size: 1.125rem;
+        line-height: 1.6;
+    }
+    .icon1{
+        font-size: 1.3rem;
+        line-height: 1.8;
+        padding-left: 3px;
+    }
+    .icon2{
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+    .icon3{
+        line-height: 1.6;
     }
 }
 

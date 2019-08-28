@@ -112,3 +112,15 @@
     letter-spacing: 2px;
 }
 
+.h3-like{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    &:hover{
+        color:$secondary;
+    }
+    @media(min-width: 768px){
+        font-size: 60px;
+      }
+}
+

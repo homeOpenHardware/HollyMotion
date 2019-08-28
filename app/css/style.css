@@ -6011,7 +6011,7 @@ button.bg-dark:focus {
   -webkit-border-radius: 0 !important;
           border-radius: 0 !important; }
 
-.clearfix::after {
+.clearfix::after, .textinputs::after {
   display: block;
   clear: both;
   content: ""; }
@@ -18491,12 +18491,136 @@ a.text-dark:hover, a.text-dark:focus {
 .fa-meanpath:before {
   content: "\f20c"; }
 
-.btn-submit {
+.btn-primary {
+  color: #fff; }
+
+.btn-cyan {
+  background-color: #546e7a;
+  color: #fff; }
+  .btn-cyan:hover {
+    color: white; }
+
+.button-icon {
+  margin-right: 5px; }
+
+.btn_1 {
+  font-size: 14px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 19px;
+  padding-right: 19px; }
+  .btn_1:hover {
+    background-color: #e74c3c;
+    color: white; }
+
+.btn_2 {
+  font-size: 16px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 15px 30px; }
+  .btn_2:hover {
+    background-color: #e74c3c;
+    color: white;
+    -webkit-box-shadow: 5px 7px 10px -5px rgba(0, 0, 0, 0.46);
+            box-shadow: 5px 7px 10px -5px rgba(0, 0, 0, 0.46); }
+
+.btn_3 {
+  font-size: 16px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 10px 15px; }
+  @media (min-width: 768px) {
+    .btn_3 {
+      padding: 15px 40px;
+      font-size: 18px; } }
+  .btn_3:hover {
+    background-color: #e74c3c;
+    color: white;
+    -webkit-box-shadow: 5px 7px 10px -5px rgba(0, 0, 0, 0.46);
+            box-shadow: 5px 7px 10px -5px rgba(0, 0, 0, 0.46); }
+
+.btn_4 {
+  border: 1px solid #ccc;
+  font-size: 13px; }
+
+.bg-btn-color-blue {
+  background-color: #42a5f5; }
+
+.bg-btn-color-dark-blue {
+  background-color: #546e7a; }
+
+.filters {
+  padding: 5rem 2rem;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+  .filters .ui-slider-handle {
+    width: 3rem;
+    height: 3rem;
+    top: -1.2rem;
+    border: 0.6rem solid #8bc34a;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-transform: translateX(-0.9rem);
+        -ms-transform: translateX(-0.9rem);
+            transform: translateX(-0.9rem); }
+    .filters .ui-slider-handle:focus, .filters .ui-slider-handle:active {
+      outline: none;
+      background: #fff; }
+
+.controls #price-range {
   border: none;
-  background-color: black;
-  color: white; }
-  .btn-submit:hover {
-    color: #e74c3c; }
+  background: #bfbfbf; }
+  .controls #price-range .ui-slider-range {
+    background: #8bc34a; }
+
+.textinputs {
+  padding: 1.5rem 0; }
+  .textinputs input {
+    width: 4rem;
+    display: block;
+    float: left; }
+  .textinputs input:last-child {
+    float: right; }
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+
+.btn-social-lg {
+  width: 54px;
+  height: 50px;
+  text-align: center;
+  list-style-type: none;
+  padding: 0; }
+  .btn-social-lg .icon {
+    font-size: 1.125rem;
+    line-height: 50px; }
+
+.btn-social-md {
+  width: 29px;
+  height: 29px;
+  text-align: center;
+  list-style-type: none;
+  padding: 0; }
+  .btn-social-md .icon {
+    font-size: 1.125rem;
+    line-height: 1.6; }
+  .btn-social-md .icon1 {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    padding-left: 3px; }
+  .btn-social-md .icon2 {
+    font-size: 1.25rem;
+    line-height: 1.5; }
+  .btn-social-md .icon3 {
+    line-height: 1.6; }
 
 .card-cat {
   font-size: 95px;
@@ -18592,6 +18716,16 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 2px; }
+
+.h3-like {
+  color: white;
+  font-size: 35px;
+  font-weight: bold; }
+  .h3-like:hover {
+    color: #e74c3c; }
+  @media (min-width: 768px) {
+    .h3-like {
+      font-size: 60px; } }
 
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child,
 .h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child {
@@ -18996,6 +19130,13 @@ p:last-of-type {
   .input-like-1:valid ~ label {
     top: -10px;
     font-size: 14px;
+    color: #e74c3c; }
+
+.btn-submit {
+  border: none;
+  background-color: black;
+  color: white; }
+  .btn-submit:hover {
     color: #e74c3c; }
 
 .sidebar-block {
