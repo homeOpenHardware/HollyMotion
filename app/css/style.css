@@ -18732,7 +18732,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .size-100vh {
   height: 100%; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .size-100vh {
       height: 100vh; } }
 
