@@ -19911,12 +19911,15 @@ button.close1 {
 
 .page {
   position: relative;
-  background-image: url("../img/YKvB.gif");
+  background-image: url("../img/YKvB (1).gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center; }
+  @media (min-width: 576px) {
+    .page {
+      background-image: url("../img/YKvB.gif"); } }
 
 .page-1 {
   background-color: black;
